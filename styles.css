@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    background-color: #19A1AE;
+}
+
+.bg-pattern-top {
+    position: absolute;
+    width: 622px;
+    height: 621px;
+    left: -98.65px;
+    top: 394.97px;
+    opacity: 0.25;
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
+        mix-blend-mode: normal;
+        opacity: 0.25;
+        transform: rotate(-135deg);
+}
+
+#container {
+    width: 326px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 147px;
+}
