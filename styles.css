@@ -1,20 +1,23 @@
 body {
     min-height: 100vh;
     background-color: #19A1AE;
+    
 }
 
 .bg-pattern-top {
     position: absolute;
-    width: 622px;
-    height: 621px;
-    left: -98.65px;
-    top: 394.97px;
+    width: 322px;
+    height: 421px;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
     opacity: 0.25;
-    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%);
-        mix-blend-mode: normal;
-        opacity: 0.25;
-        transform: rotate(-135deg);
+    mix-blend-mode: normal;
+    transform: rotate(40deg);
+    background: linear-gradient(90deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%); /*Make changes to this so the shape is more of a circle*/
 }
+
+
 
 #container {
     width: 326px;
