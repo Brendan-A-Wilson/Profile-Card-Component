@@ -6,15 +6,13 @@ body {
 
 .bg-pattern-top {
     position: absolute;
-    width: 322px;
-    height: 421px;
-    left: 10px;
-    top: 10px;
+    width: 610px;
+    height: 550px;
+    left: -340px;
+    top: -275px;
     z-index: -1;
     opacity: 0.25;
-    mix-blend-mode: normal;
-    transform: rotate(40deg);
-    background: linear-gradient(90deg, rgba(9, 137, 180, 0.0001) 0.78%, #53FFEE 99.94%); /*Make changes to this so the shape is more of a circle*/
+    transform: rotate(20deg);
 }
 
 
@@ -27,4 +25,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 147px;
+}
+
+.pattern-card {
+    width: 326px;
+    height: 140px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
