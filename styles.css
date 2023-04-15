@@ -57,15 +57,32 @@ body {
 }
 
 .name {
-
+    font-weight: 700;
+    font-size: 18px;
+    color: #2e3349;
+    font-family: 'Kumbh Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .age {
-
+    font-weight: 400;
+    font-size: 18px;
+    color: #6B7082;
+    font-family: 'Kumbh Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .ldn {
     margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6B7082;
+    font-family: 'Kumbh Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #E8E9EC;
+    margin-bottom: 24px;
 }
 
 .likes {
