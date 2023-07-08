@@ -105,7 +105,7 @@ hr {
 .likes-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
 }
 
@@ -118,10 +118,11 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 9px;
+    margin-right: 38px;
 }
 
 .followers-group .eighty-k {
-    color: blue;
+    
 }
 
 .followers-group .p-followers {
@@ -137,6 +138,7 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 9px;
+    margin-right: 46px;
 }
 
 .likes-group .p-803k {
