@@ -1,8 +1,12 @@
+/*CSS Styling Body*/
+
 body {
     min-height: 100vh;
     background-color: #19A1AE;
     
 }
+
+/*Styling the background pattern*/
 
 .bg-pattern-top {
     position: absolute;
@@ -15,6 +19,8 @@ body {
     transform: rotate(20deg);
 }
 
+/*Styling the main container*/
+
 #container {
     width: 326px;
     height: 374px;
@@ -25,6 +31,8 @@ body {
     margin-top: 147px;
 }
 
+/*Styling the top card within the container*/
+
 .pattern-card {
     width: 326px;
     height: 140px;
@@ -32,6 +40,8 @@ body {
     border-top-right-radius: 15px;
     background-color: #41CBD3;
 }
+
+/*Styling the image*/
 
 .victor-img {
     position: relative;
@@ -45,6 +55,8 @@ body {
     height: 96px;
     width: 96px;
 }
+
+/*Styling the mid-section of the container*/
 
 .personal-info {
     text-align: center;
@@ -79,6 +91,8 @@ body {
     font-family: 'Kumbh Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/*Styling the horizontal line*/
+
 hr {
     border: none;
     height: 1px;
@@ -86,9 +100,68 @@ hr {
     margin-bottom: 24px;
 }
 
-.likes {
+/*Styling the bottom section of the container*/
+
+.likes-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+}
+
+/*Styling the followers group*/
+
+.followers-group {
+    display: inline-flex;
+    padding: 0px 1.5px 3px 1.5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.followers-group .eighty-k {
+    color: blue;
+}
+
+.followers-group .p-followers {
+    
+}
+
+/*Styling the likes group*/
+
+.likes-group {
+    display: inline-flex;
+    padding: 0px 0.5px 3px 0.5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.likes-group .p-803k {
+    
+}
+
+.likes-group .p-likes {
+    
+}
+
+/*Styling the photos group*/
+
+.photos-group {
+    display: inline-flex;
+    padding: 0px 1.5px 3px 1.5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.photos-group .p-1004 {
+    
+}
+
+.photos-group .p-photos {
+    
 }
