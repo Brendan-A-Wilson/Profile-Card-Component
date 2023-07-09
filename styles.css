@@ -1,9 +1,8 @@
 /*CSS Styling Body*/
 
 body {
-    min-height: 100vh;
+    max-height: 100vh;
     background-color: #19A1AE;
-    
 }
 
 /*Styling the background pattern*/
@@ -41,7 +40,7 @@ body {
     background-color: #41CBD3;
 }
 
-/*Styling the image*/
+/*Styling the top and bottom background images*/
 
 .victor-img {
     position: relative;
@@ -55,6 +54,8 @@ body {
     height: 96px;
     width: 96px;
 }
+
+
 
 /*Styling the mid-section of the container*/
 
@@ -122,11 +123,24 @@ hr {
 }
 
 .followers-group .eighty-k {
-    
+    color: #2E3349;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .followers-group .p-followers {
-    
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
 }
 
 /*Styling the likes group*/
@@ -142,11 +156,24 @@ hr {
 }
 
 .likes-group .p-803k {
-    
+    color: #2E3349;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .likes-group .p-likes {
-    
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
 }
 
 /*Styling the photos group*/
@@ -161,9 +188,22 @@ hr {
 }
 
 .photos-group .p-1004 {
-    
+    color: #2E3349;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .photos-group .p-photos {
-    
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
 }
