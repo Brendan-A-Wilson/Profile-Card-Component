@@ -18,6 +18,8 @@ body {
     transform: rotate(20deg);
 }
 
+
+
 /******************************Styling the main container******************************/
 
 #container {
@@ -40,7 +42,7 @@ body {
     background-color: #41CBD3;
 }
 
-/******************************Styling the top and bottom background images******************************/
+/******************************Styling the image******************************/
 
 .victor-img {
     position: relative;
