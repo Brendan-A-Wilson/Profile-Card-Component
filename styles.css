@@ -1,11 +1,11 @@
-/*CSS Styling Body*/
+/******************************CSS Styling Body******************************/
 
 body {
     max-height: 100vh;
     background-color: #19A1AE;
 }
 
-/*Styling the background pattern*/
+/******************************Styling the background pattern******************************/
 
 .bg-pattern-top {
     position: absolute;
@@ -18,7 +18,7 @@ body {
     transform: rotate(20deg);
 }
 
-/*Styling the main container*/
+/******************************Styling the main container******************************/
 
 #container {
     width: 326px;
@@ -30,7 +30,7 @@ body {
     margin-top: 147px;
 }
 
-/*Styling the top card within the container*/
+/******************************Styling the top card within the container******************************/
 
 .pattern-card {
     width: 326px;
@@ -40,7 +40,7 @@ body {
     background-color: #41CBD3;
 }
 
-/*Styling the top and bottom background images*/
+/******************************Styling the top and bottom background images******************************/
 
 .victor-img {
     position: relative;
@@ -57,7 +57,7 @@ body {
 
 
 
-/*Styling the mid-section of the container*/
+/******************************Styling the mid-section of the container******************************/
 
 .personal-info {
     text-align: center;
@@ -92,7 +92,7 @@ body {
     font-family: 'Kumbh Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*Styling the horizontal line*/
+/******************************Styling the horizontal line******************************/
 
 hr {
     border: none;
@@ -101,7 +101,7 @@ hr {
     margin-bottom: 24px;
 }
 
-/*Styling the bottom section of the container*/
+/******************************Styling the bottom section of the container******************************/
 
 .likes-section {
     display: flex;
