@@ -9,13 +9,14 @@ body {
 
 .bg-pattern-top {
     position: absolute;
-    width: 610px;
-    height: 550px;
-    left: -340px;
-    top: -275px;
+    width: 978px;
+    height: 976px;
+    transform: rotate(-10deg);
+    top: -550px;
+    left: -25px;
     z-index: -1;
-    opacity: 0.25;
-    transform: rotate(20deg);
+    opacity: 0.5;
+    flex-shrink: 0;
 }
 
 /******************************Styling the main container******************************/
